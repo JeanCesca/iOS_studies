@@ -43,3 +43,28 @@ Mais comandos
     2. reescrever o commit
     3. digitar Esc e depois :wq
     4. git log = ver o status de alteração do commit
+   
+
+## Stacks and Heaps
+
+Heaps: pass-by-REFERENCE
+Class
+Closures
+
+SIGNIFICA:
+- Quando você instancia uma CLASSE, você cria uma referência.
+- Ou seja, os dados são passados por Referência.
+As alterações que eu fizer no Objeto interfere nas instâncias.
+
+Stacks: pass-by-VALUE
+Structs
+Enums
+
+SIGNIFICA:
+- Quando você instancia uma STRUCT, você cria uma cópia.
+- Ou seja, os dados são passados por Valor.
+As alterações que eu fizer na STRUCT não interfere nas instâncias.
+
+Initializers
+- STRUCTS: Já vem com initializers grátis (não é necessário escrever a func init()) 
+- CLASSES: Preciso escrever init()
